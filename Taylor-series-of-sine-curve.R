@@ -96,4 +96,8 @@ viz <- animint(
   title = "Interactive Taylor Series Expansion of Sine Curve"
 )
 
-animint2dir(viz, out.dir = "sine_curve_animint")
+viz
+
+if(FALSE){
+  animint2dir(viz, out.dir = "sine_curve_animint")
+}
